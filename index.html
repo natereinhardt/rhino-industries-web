@@ -12,6 +12,7 @@
 
     <!-- Bootstrap core CSS -->
     <link href="node_modules/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Cuprum" rel="stylesheet">
 
     <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 
@@ -26,13 +27,13 @@
 </head>
 
 <body>
-
 <!-- Fixed navbar -->
-<nav class="navbar navbar-default navbar-fixed-top">
+<nav class="navbar navbar-default navbar-fixed-top top-nav-container">
     <div class="container">
         <div class="navbar-header">
             <img class="top-logo" src="IMG/rhinonewcolorCropped_clipped_rev_6.png" height="50">
-            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+            <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar"
+                    aria-expanded="false" aria-controls="navbar">
                 <span class="sr-only">Toggle navigation</span>
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
@@ -51,28 +52,70 @@
         </div><!--/.nav-collapse -->
     </div>
 </nav>
-
 <div class="container main-container">
+    <!--ABOUT-->
+    <div class="container about-container" id="about">
+        <div class="container">
+            <div>
+                <img class="img-responsive about-logo" src="IMG/rhinonewcolor.jpg">
+            </div>
+            <div class="top-label-container">
+                <h1 class="top-label">About</h1>
+            </div>
+            <div class="about-bottom">
+                <p>Rhino Industries, Inc. is a provider of chemicals and services to potable water and wastewater
+                    plants, environmental remediation projects, disinfection products, and the mining industry.
+                    Rhino Industries, Inc. can provide products and services to a wide variety related water
+                    treatment and dewatering processes including chemical metering pumps, process control systems,
+                    and process equipment accessories. We believe the best solution for a treatment issue is to have
+                    a complete line of chemistries available with a knowledgeable staff who can determine the best
+                    course of action to take on any given issue. We provide quality products necessary to meet and
+                    exceed the parameters set in the various industries we serve.
+                </p>
+            </div>
+            <div class="clearfix"></div>
+        </div>
+    </div>
+    <!--END ABOUT-->
+
+    <!--SERVICES-->
     <div class="services service-container" id="services">
         <div class="container">
-            <div class="services-main">
-                <div class="services-top">
-                    <h3>Services</h3>
-                </div>
-                <div class="services-bottom">
-                    <div class="services-grid">
-                        <div class="col-md-6 services-left">
-                            <img src="IMG/channel%20dredging.jpg" alt="" class="img-responsive">
-                        </div>
-                        <div class="col-md-6 services-right">
-                            <h4>Vanes</h4>
-                            <p>Rhino Industries, Inc. is a provider of chemicals and services to potable water and wastewater plants, environmental remediation projects, disinfection products, and the mining industry.  Rhino Industries, Inc. can provide products and services to a wide variety related water treatment and dewatering processes including chemical metering pumps, process control systems, and process equipment accessories.  We believe the best solution for a treatment issue is to have a complete line of chemistries available with a knowledgeable staff who can determine the best course of action to take on any given issue.  We provide quality products necessary to meet and exceed the parameters set in the various industries we serve.</p>
-                        </div>
-                        <div class="clearfix"> </div>
+            <div class=top-label-container">
+                <h1 class="top-label">Services</h1>
+            </div>
+            <div class="services-bottom">
+                <div class="services-grid">
+                    <div class="col-md-6 services-left">
+                        <img src="IMG/P1000149.JPG" class="img-responsive services-image">
                     </div>
-                    <div class="services-grid">
-                        <div class="col-md-6 services-right">
-                            <h4> Ground/Surface Water Treatment Applications</h4>
+                    <div class="col-md-6 services-right">
+                        <div>
+                            <h4 class="sub-label">GEOTEXTILE TUBES</h4>
+                        </div>
+                        <div class="bottom-content">
+                            <p>In past years, the drawback to sediment removal has been controlling the excess water
+                                without
+                                causing a large mess. We utilize a combination of geotextile tubes and coagulating
+                                polymers
+                                to allow water to filter out at the disposal point clear.
+                                <br>
+                                <br>
+                                After the geotextile tube is allowed to sufficiently dewater, the bag can be cut open
+                                and
+                                the material removed by conventional means of excavation, burial, spread on site or
+                                transportation and disposal off-site.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="services-grid">
+                    <div class="col-md-6 services-right">
+                        <div>
+                            <h4 class="sub-label"> Ground/Surface Water Treatment Applications</h4>
+                        </div>
+                        <div class="bottom-content">
                             <ul>
                                 <li>Fe/Mn Removal</li>
                                 <li>Taste and Odor Reduction</li>
@@ -88,17 +131,21 @@
                                 <li>Floccuation</li>
                             </ul>
                         </div>
-                        <div class="col-md-6 services-left">
-                            <img src="IMG/P1020307.JPG" alt="" class="img-responsive">
-                        </div>
-                        <div class="clearfix"> </div>
                     </div>
-                    <div class="services-grid">
-                        <div class="col-md-6 services-left">
-                            <img src="IMG/image2.JPG" alt="" class="img-responsive">
+                    <div class="col-md-6 services-left">
+                        <img src="IMG/P1020307.JPG" alt="" class="img-responsive services-image">
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="services-grid">
+                    <div class="col-md-6 services-left">
+                        <img src="IMG/image2.JPG" alt="" class="img-responsive services-image">
+                    </div>
+                    <div class="col-md-6 services-right">
+                        <div>
+                            <h4 class="sub-label">Algae Control in Lakes, Reservoirs and Ponds</h4>
                         </div>
-                        <div class="col-md-6 services-right">
-                            <h4>Algae Control in Lakes, Reservoirs and Ponds</h4>
+                        <div class="bottom-content">
                             <ul>
                                 <li>Improve taste and odor</li>
                                 <li>Reduce Algae Toxins</li>
@@ -106,14 +153,94 @@
                                 <li>Reduce Cost of Treatment</li>
                             </ul>
                         </div>
-                        <div class="clearfix"> </div>
+                    </div>
+                    <div class="clearfix"></div>
+                </div>
+                <div class="page-break"></div>
+            </div>
+            <div class="services service-container" id="dino-six">
+                <div class="container">
+                    <div class=top-label-container">
+                        <h1 class="top-label">DINO-SIX</h1>
+                        <div class="about-bottom">
+                            <p>The DINO Six is a uniquely portable dredge system developed to perform jobs
+                                inaccessible to other dredges and sediment removal equipment. Weighing only 3800 pounds,
+                                the Dino Dredge is used to clean wastewater lagoons, storm water detention ponds,
+                                canals, clarifiers and home association lakes. It features a 6-inch pump capable of
+                                pumping sediment through a pipeline exceeding distances of 1000 ft. With the aid of a
+                                small booster pump we can increase the pumping distances substantially.
+                            </p>
+                        </div>
+                    </div>
+                    <div class="services-bottom">
+                        <div class="services-grid">
+                            <div class="col-md-6 services-left">
+                                <img src="IMG/dredge%20lifted.jpg" class="img-responsive services-image">
+                            </div>
+                            <div class="col-md-6 services-right">
+                                <div>
+                                    <h4 class="sub-label">BENEFITS OF THE DINO SIX SEDIMENT REMOVAL SYSTEM</h4>
+                                </div>
+                                <div class="bottom-content">
+                                    <ul>
+                                        <li>Minimal disturbance of water which in turn is less risk to fish and
+                                            other marine life.
+                                        </li>
+                                        <li>Allows continue daily operations with minimal interruptions.</li>
+                                        <li>Safe for rubber pond liners</li>
+                                        <li>Clean water returns to waterway with minimal site impact.</li>
+                                        <li>Capable of dredging as shallow as 14 in. and to a depth of 13 ft.</li>
+                                        <li>Mobilization cost a fraction of typical six inch dredge.</li>
+                                        <li>Due to being lightweight Dino Six does not disturb the ground or tear up
+                                            sod.
+                                        </li>
+                                        <li>The launching and loading are more like a boat then the conventional
+                                            dredge or excavator.
+                                        </li>
+                                        <li>When sediment removal is complete there is virtually no need for site
+                                            restoration.
+                                        </li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="clearfix"></div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
-    </div>
+        <!--SERVICES-->
+    </div> <!-- /container -->
+    <div class="container contact" id="contact">
+        <h1>Contact Us</h1>
+        <div class="contact-us-body">
+            <p>
+                If you have any questions or would like more information about our sediment removal system or
+                water and
+                wastewater chemical applications please call or email us at:
+            </p>
+            <div class="contact-item">
+                Tim Reinhardt
+            </div>
+            <div class="contact-item">
+                (309)337-0827
+            </div>
+            <div class="contact-item">
+                Rhino Industries, Inc.
 
-</div> <!-- /container -->
+            </div>
+            <div class="contact-item">
+                P.O. Box 296
+            </div>
+            <div class="contact-item">
+                Nauvoo, Il 62354
+            </div>
+            <div class="contact-item">
+                rhinoindustries@frontiernet.net
+            </div>
+        </div>
+    </div>
+</div>
 
 
 <!-- Bootstrap core JavaScript
@@ -125,4 +252,4 @@
 <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
 <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
 </body>
-</html>>
+</html>
